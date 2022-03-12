@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from "./Affairs.module.css"
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle'  // need to fix any
@@ -40,8 +41,9 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homeworks 2
-
+            <div className={s.homework}>
+                Homeworks 2
+            </div>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}

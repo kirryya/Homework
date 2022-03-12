@@ -1,5 +1,6 @@
 import React from 'react'
 import Message from './Message'
+import s from './Message.module.css'
 
 
 const messageData = {
@@ -13,7 +14,9 @@ function HW1() {
     return (
         <div>
             <hr/>
-            homeworks 1
+            <div className={s.homework}>
+                Homeworks 1
+            </div>
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}
