@@ -1,0 +1,64 @@
+.affairs {
+    width: 265px;
+    height: 160px;
+    background-color: cornflowerblue;
+    font-weight: bolder;
+    line-height: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.buttonAll {
+    font-weight: bold;
+    width: 60px;
+    background-color: cadetblue;
+    border-radius: 20px;
+
+}
+
+.buttonHigh {
+    font-weight: bold;
+    color: darkred;
+    width: 60px;
+    background-color: crimson;
+    border-radius: 20px;
+    border: 3px solid darkred;
+
+}
+
+.buttonMiddle {
+    font-weight: bold;
+    color: darkgoldenrod;
+    width: 60px;
+    background-color: gold;
+    border-radius: 20px;
+    border: 3px solid darkgoldenrod;
+}
+
+.buttonLow {
+    font-weight: bold;
+    color: darkgreen;
+    width: 60px;
+    background-color: green;
+    border-radius: 20px;
+    border: 3px solid darkgreen;
+}
+
+.buttonDelete {
+    font-weight: bolder;
+    color: red;
+    background-color: pink;
+    border: 1px solid red;
+}
+
+.priorityHigh {
+    color: red;
+    font-size: large;
+}
+
+.priorityNormal {
+    color: blueviolet;
+}
+
