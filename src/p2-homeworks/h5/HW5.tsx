@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from './Header'
-import Routes from './Routes'
-import {BrowserRouter} from "react-router-dom";
+import Pages from './Pages'
+import {HashRouter} from "react-router-dom";
 
 function HW5() {
     return (
         <div>
-            <BrowserRouter>
+            <HashRouter>
                 <Header/>
-                <Routes/>
-            </BrowserRouter>
+                <Pages/>
+            </HashRouter>
         </div>
     )
 }
