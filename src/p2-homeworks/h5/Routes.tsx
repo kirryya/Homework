@@ -11,9 +11,9 @@ function Routes() {
         <div>
             <Switch>
                 <Route path={'/Homework'} element={<Main/>}/>
-                <Route path={'/pre-junior'} element={<PreJunior/>}/>
-                <Route path={'/junior'} element={<Junior/>}/>
-                <Route path={'/junior-plus'} element={<JuniorPlus/>}/>
+                <Route path={'/Homework/pre-junior'} element={<PreJunior/>}/>
+                <Route path={'/Homework/junior'} element={<Junior/>}/>
+                <Route path={'/Homework/junior-plus'} element={<JuniorPlus/>}/>
                 <Route path={'/*'} element={<Error404/>}/>
             </Switch>
         </div>
