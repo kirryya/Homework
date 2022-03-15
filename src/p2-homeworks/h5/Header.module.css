@@ -1,0 +1,10 @@
+.header {
+    width: 500px;
+    transition-duration: 500ms;
+    transform: translate(-400px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
