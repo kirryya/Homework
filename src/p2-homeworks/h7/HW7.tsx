@@ -10,6 +10,7 @@ function HW7() {
 
     return (
         <div>
+            <hr/>
             <div className={s.homework}>
                 Homeworks 7
             </div>
