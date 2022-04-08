@@ -45,12 +45,6 @@ function HW8() {
             <span><SuperButton onClick={sortUp}>sort up</SuperButton></span>
             <span><SuperButton onClick={sortDown}>sort down</SuperButton></span>
             <span><SuperButton onClick={check}>check 18</SuperButton></span>
-
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativePeople/>*/}
-            <hr/>
         </div>
     )
 }
