@@ -25,7 +25,7 @@ function HW10() {
             Homeworks 10
             {isLoading
                 ? (
-                    <div>крутилка...</div>
+                    <div>Loading...</div>
                 ) : (
                     <div>
                         <SuperButton onClick={setLoading}>Loading</SuperButton>
