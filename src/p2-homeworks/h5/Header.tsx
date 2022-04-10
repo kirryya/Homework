@@ -10,6 +10,7 @@ function Header() {
             <NavLink to={'/pre-junior'} className={s.button}> PRE_JUNIOR </NavLink>
             <NavLink to={'/junior'} className={s.buttons}> JUNIOR </NavLink>
             <NavLink to={'/junior-plus'} className={s.button}> JUNIOR_PLUS </NavLink>
+            <span className={s.homework}>Menu</span>
         </div>
     )
 }
