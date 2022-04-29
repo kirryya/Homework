@@ -8,9 +8,10 @@ function HW11() {
     const [value2, setValue2] = useState(100)
 
     const handleChange = (event: Event, newValue: number | number[]) => {
+        // @ts-ignore
         setValue1(newValue[0] as number);
-        setValue2(newValue[1] as number)
-
+        // @ts-ignore
+        setValue2(newValue[1] as number);
     };
 
     return (
@@ -28,7 +29,7 @@ function HW11() {
 
             <div>
                 <span>{value1}</span>
-                <SuperDoubleRange value={[value1, value2]} handleChange={handleChange} />
+                <SuperDoubleRange value={[value1, value2]} handleChange={handleChange}/>
                 <span>{value2}</span>
             </div>
 
