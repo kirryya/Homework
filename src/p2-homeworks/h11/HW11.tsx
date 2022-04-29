@@ -4,8 +4,8 @@ import s from "../h4/HW4.module.css";
 import {SuperDoubleRange} from "./common/c8-SuperDoubleRange/SuperDoubleRange";
 
 function HW11() {
-    const [value1, setValue1] = useState(50)
-    const [value2, setValue2] = useState(100)
+    const [value1, setValue1] = useState<number>(50)
+    const [value2, setValue2] = useState<number>(100)
 
     const handleChange = (event: Event, newValue: number | number[]) => {
         // @ts-ignore

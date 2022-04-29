@@ -25,5 +25,5 @@ export const loadingReducer = (state: InitialStateType = initState, action: SetL
 
 export const loadingAC = (isLoading: boolean): SetLoadingAT => ({
     type: "SET-LOADING",
-    isLoading
+    isLoading: isLoading
 });
