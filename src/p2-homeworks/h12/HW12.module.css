@@ -1,23 +1,63 @@
 .dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid white;
     background: dimgrey;
 }
 
 .dark-text {
+    font-size: xx-large;
+    text-align: center;
     color: aliceblue;
 }
 
 .red {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid white;
     background: lightcoral;
 }
 
 .red-text {
+    font-size: xx-large;
+    text-align: center;
     color: aqua;
 }
 
 .some {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid white;
     background: lightgreen;
 }
 
 .some-text {
+    font-size: xx-large;
+    text-align: center;
     color: darkslateblue;
+}
+
+.original {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid white;
+    color: #1c6b72;
+}
+
+.original-text {
+    font-size: xx-large;
+    text-align: center;
+    color: darkmagenta;
 }

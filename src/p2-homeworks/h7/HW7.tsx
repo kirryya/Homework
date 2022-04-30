@@ -14,7 +14,6 @@ function HW7() {
             <div className={s.homework}>
                 Homeworks 7
             </div>
-            {/*should work (должно работать)*/}
             <div>
                 <SuperSelect
                     options={arr}
