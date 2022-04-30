@@ -3,12 +3,11 @@ import React from 'react'
 import Slider from "@mui/material/Slider";
 
 type SuperDoubleRangePropsType = {
-    handleChange: (event: Event, newValue: number | number[]) => void
+    handleChange: (event: Event, newValue: Array<number> | any) => void
     value: [number, number]
 }
 
 export function SuperDoubleRange(props: SuperDoubleRangePropsType) {
-
 
     return (
         <Box sx={{width: 200}}>

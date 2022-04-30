@@ -7,10 +7,8 @@ function HW11() {
     const [value1, setValue1] = useState<number>(50)
     const [value2, setValue2] = useState<number>(100)
 
-    const handleChange = (event: Event, newValue: number | number[]) => {
-        // @ts-ignore
+    const handleChange = (event: Event, newValue: Array<number>) => {
         setValue1(newValue[0] as number);
-        // @ts-ignore
         setValue2(newValue[1] as number);
     };
 
