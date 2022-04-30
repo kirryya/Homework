@@ -17,5 +17,4 @@ export function SuperDoubleRange(props: SuperDoubleRangePropsType) {
             />
         </Box>
     );
-
 }
